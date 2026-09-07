@@ -112,7 +112,16 @@ ps ax | grep my_test_binary
 
 ## 📄 License
 
-This project is licensed under the **MIT License** - see the license headers inside the script sources for full details. 
+This software is dual-licensed under the GNU GPL v3.0 (for open-source
+projects) or a Commercial License (for proprietary use).
 
-Copyright (c) 2026 **Wellington Rats** (<wellrats@gmail.com>).
+For commercial licenses, contact: wellrats@gmail.com
+GPL v3.0 License details: https://www.gnu.org/licenses/gpl-3.0.html
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
