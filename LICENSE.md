@@ -4,6 +4,7 @@ This software is dual-licensed under the GNU GPL v3.0 (for open-source
 projects) or a Commercial License (for proprietary use).
 
 For commercial licenses, contact: wellrats@gmail.com
+
 GPL v3.0 License details: https://www.gnu.org/licenses/gpl-3.0.html
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR

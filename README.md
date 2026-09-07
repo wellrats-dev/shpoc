@@ -73,19 +73,19 @@ cat "\$BASE_DIR/settings.conf"
 Simply clone or copy the `shpoc` automation utility into your system:
 ```bash
 git clone https://github.com
-cd shpoc
+cd shpoc/dist
 chmod +x shpoc
 ```
 
 ### 2. Basic Compilation
 To obfuscate and compile a shell script:
 ```bash
-./shpoc <source_script.sh> <output_binary_name>
+./shpoc <source_script.sh> -o <output_binary_name>
 ```
 
 **Example:**
 ```bash
-./shpoc your_scripts.sh your_script
+./shpoc your_scripts.sh -o your_script
 ```
 
 ### 3. Verification
@@ -93,7 +93,7 @@ Test if your compiled application safely processes standard pipelines, interacti
 
 ```bash
 # Compile the test script using shpoc
-./shpoc test_shpoc.sh my_test_binary
+./shpoc test_shpoc.sh -o my_test_binary
 
 # Run Test A: Verify Pipe Data (Stdin) + Argument Forwarding
 echo "Hello World from Pipe" | ./my_test_binary --debug --verbose
