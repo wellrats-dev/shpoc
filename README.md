@@ -86,6 +86,9 @@ To obfuscate and compile a shell script:
 **Example:**
 ```bash
 ./shpoc your_scripts.sh -o your_script
+
+ # Yes, you can self-compile shpoc and install
+./shpoc.sh shpoc.sh -o dist/shpoc --install  
 ```
 
 ### 3. Verification
